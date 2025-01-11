@@ -2,8 +2,6 @@
 package gcore
 
 import (
-	"fmt"
-
 	libdnsGCore "git.mills.io/prologic/libdns-gcore"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
@@ -28,7 +26,7 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 // Provision sets up the module. Implements caddy.Provisioner.
 func (p *Provider) Provision(_ caddy.Context) error {
 	p.Provider.APIKey = caddy.NewReplacer().ReplaceAll(p.Provider.APIKey, "")
-	return fmt.Errorf("TODO: not implemented")
+	return nil
 }
 
 // UnmarshalCaddyfile sets up the DNS provider from Caddyfile tokens. Syntax:
