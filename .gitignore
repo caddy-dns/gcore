@@ -2,3 +2,5 @@
 *.bak
 **/.envrc
 **/.DS_Store
+
+/bin
