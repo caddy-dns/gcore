@@ -12,6 +12,7 @@ import (
 // Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
 type Provider struct{ *libdnsGCore.Provider }
 
+// Registers the DNS provider with Caddy.
 func init() {
 	caddy.RegisterModule(Provider{})
 }
@@ -19,7 +20,7 @@ func init() {
 // CaddyModule returns the Caddy module information.
 func (Provider) CaddyModule() caddy.ModuleInfo {
 	return caddy.ModuleInfo{
-		ID:  "dns.providers.template",
+		ID:  "dns.providers.gcore",
 		New: func() caddy.Module { return &Provider{new(libdnsGCore.Provider)} },
 	}
 }
