@@ -17,6 +17,8 @@ git.mills.io/prologic/libdns-gcore v0.0.0-20250111075742-fcccd7c273cb h1:+70n95/
 git.mills.io/prologic/libdns-gcore v0.0.0-20250111075742-fcccd7c273cb/go.mod h1:ng3eGon4nsLExcKXJHB6RJy7g3CHhRfxkV4zPhHs19g=
 git.mills.io/prologic/libdns-gcore v0.0.0-20250111222018-928a45a6e21b h1:UhESlMyMA3pGg9PL4MASWbmco+hKAniyJLooDUg8cmw=
 git.mills.io/prologic/libdns-gcore v0.0.0-20250111222018-928a45a6e21b/go.mod h1:ng3eGon4nsLExcKXJHB6RJy7g3CHhRfxkV4zPhHs19g=
+git.mills.io/prologic/libdns-gcore v0.0.0-20250111225003-716db52b5bac h1:2wbjT2BLLw1a+o/tMFg+JVGw5Tkqh+bb3ihLbj8wrEI=
+git.mills.io/prologic/libdns-gcore v0.0.0-20250111225003-716db52b5bac/go.mod h1:ng3eGon4nsLExcKXJHB6RJy7g3CHhRfxkV4zPhHs19g=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/G-Core/gcore-dns-sdk-go v0.2.9 h1:LMMZIRX8y3aJJuAviNSpFmLbovZUw+6Om+8VElp1F90=
 github.com/G-Core/gcore-dns-sdk-go v0.2.9/go.mod h1:35t795gOfzfVanhzkFyUXEzaBuMXwETmJldPpP28MN4=
