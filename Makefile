@@ -1,4 +1,4 @@
 all: build
 
 build:
-	@xcaddy build --output=./bin/caddy --with git.mills.io/prologic/caddy-gcore=.
+	@xcaddy build --output=./bin/caddy --with github.com/caddy-dns/gcore=.

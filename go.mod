@@ -1,9 +1,9 @@
-module git.mills.io/prologic/caddy-gcore
+module github.com/caddy-dns/gcore
 
 go 1.23.1
 
 require (
-	git.mills.io/prologic/libdns-gcore v0.0.0-20250111225003-716db52b5bac
+	github.com/libdns/gcore v0.0.0-20250111225003-716db52b5bac
 	github.com/caddyserver/caddy/v2 v2.9.1
 )
 

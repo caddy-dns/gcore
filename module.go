@@ -2,9 +2,9 @@
 package gcore
 
 import (
-	libdnsGCore "git.mills.io/prologic/libdns-gcore"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
+	libdnsGCore "github.com/libdns/gcore"
 )
 
 // Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
