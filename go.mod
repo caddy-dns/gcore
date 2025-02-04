@@ -3,8 +3,8 @@ module github.com/caddy-dns/gcore
 go 1.23.1
 
 require (
-	github.com/libdns/gcore v0.0.0-20250111225003-716db52b5bac
 	github.com/caddyserver/caddy/v2 v2.9.1
+	github.com/libdns/gcore v0.0.0-20250127070537-4a9d185c9d20
 )
 
 require (
@@ -14,7 +14,6 @@ require (
 	github.com/caddyserver/zerossl v0.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
-	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/google/pprof v0.0.0-20241210010833-40e02aabc2ad // indirect
 	github.com/google/uuid v1.6.0 // indirect
